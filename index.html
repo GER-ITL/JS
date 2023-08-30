@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>JavaScript</title>
 </head>
 <body>
-    
-    <script src="app.js"></script>
+    <div class="content">
+        <h1>Калькулятор</h1>
+        <div>
+            <input id="input1" placeholder="Введите первое число" type="number" class='inCalc'>
+            <input id="input2" placeholder="Введите второе число"type="number" class="inCalc">
+        </div>
+        <div class="butDiv">
+            <button type="button" id='plus'>+</button>
+            <button type="button" id='minus'>-</button>
+            <button type="button" id='ymnoj'>*</button>
+            <button type="button" id='del'>/</button>
+        </div>
+        <button type="button" id='submit'>Вычислить</button>
+        <div class="res">
+            <h2>Результат:</h2>
+            <p id="result" class="mb-0"></p>
+        </div>
+        <script src="app.js"></script>
+    </div>
 </body>
 </html>
