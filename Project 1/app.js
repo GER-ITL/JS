@@ -29,7 +29,8 @@ delBtn.onclick = function(){
 function printResult(result){
     if (result<0) {
         resultElement.style.color = 'red'
-    } else {
+    } 
+    else {
         resultElement.style.color = 'green'
     }
     resultElement.textContent = result
@@ -47,8 +48,10 @@ function compNumWithAction(inp1, inp2 , actionSym){
         return num1 * num2
     }
     else if(actionSym === '/'){
+        
         return num1 / num2
     }
+    
 }
  submitBtn.onclick = function(){
     const result = compNumWithAction(input1, input2, action)
