@@ -1,24 +1,39 @@
-/*function getRandom(min, max){
-    return Math.floor(Math.random() * (max - min + 1) + min) 
+// const userName = document.querySelector('#input1')
+// const userBtn = document.querySelector('#submit')
+// const userResult = document.querySelector('#result')
+
+// const listName = ['Alex', 'Jame', 'Bekzat']
+
+// console.log(listName)
+// listName.unshift('Brand')
+// listName.push('Ron')
+// console.log(listName)
+// listName.splice(2, 2)
+// console.log(listName.length)
+
+// for(let i = 0 ; i < listName.length; i++){
+//     console.log(listName[i])
+// }
+
+// for (let item of listName){
+//     console.log(item)
+// }
+
+// listName.forEach(function(brand, index){
+//     console.log(`${brand} => ${index}`)
+// })
+
+// listName.forEach(printBrand)
+
+
+// function printBrand(brand, index){
+//     console.log(`${brand} => ${index}`)}
+const person = {
+    firstName:'Марк',
+    age:30,
+    isMarried:false,
+    greet: function(){console.log('Greeting ' + this.firstName)}
 }
-console.log(getRandom(0, 10))*/
-// const resultElement = document.getElementById('result')
-// const input1 = document.getElementById('input1')
-// const submitBtn = document.getElementById('submit')
-
-// let inputNum = Number(input1.value)
-// const randomNum = function getRandom(min, max){
-//     const randomNum =  Math.floor(Math.random() * (max - min + 1) + min)
-// }
-// function rez (){
-// if (inputNum == randomNum) {
-//     resultElement.textContent = 'Вы угадали!!!'
-// }  else if (inputNum < randomNum){ 
-//     resultElement.textContent = 'Введите число побольше'
-// }else if (inputNum > randomNum){ 
-//     resultElement.textContent = 'Введите число поменьше'
-// }
-// }
-// submitBtn.onclick = function(){console.log(randomNum(1,100))}
-
-
+console.log(person)
+person.proffesion = 'Developer'
+console.log(person)
