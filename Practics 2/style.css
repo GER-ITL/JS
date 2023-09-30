@@ -32,41 +32,55 @@ button{cursor: pointer;}
 button::-moz-focus-inner{padding: 0;border: 0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
-ul li{list-style-type: none;}
+
 img{vertical-align: top;}
 
 h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400; text-align: center; color: #E6E6FA;}
+
+
+p{font-style: inherit; font-weight: 400; text-align: center; color: #E6E6FA;line-height: 50px; font-size: 30px; }
+
 .content{
 	max-width: 960px;
 	height: auto;
 	margin: 0 auto;
 	padding-top: 15%;
-	overflow: none;
 }
-.inCalc{
-	display: block;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	height: 50px;
-	width: 100%;
-	border-radius: 20px;
-	text-align: center;
-	background-color: #E6E6FA;
-	font-size: 25px;
+
+.todo-list li{
+	font-size: 30px;
+	color: #E6E6FA;
+    list-style-type:decimal;
+
 	
 }
-button{
-	background-color: #E6E6FA;
+
+
+#todo-input{
 	width: 100%;
 	height: 50px;
+	border-radius: 20px;
+	background-color: transparent;
+	color: #ffffff;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+	overflow: auto;
+}
+#todo-btn{
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 20px;
+	background: #E6E6FA;
+	color: #292929;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: 0.5s;
 
 }
-.butDiv{
-	text-align: center;
+#todo-btn:hover{
+	box-shadow: 1px 1px 20px #E6E6FA;
 }
-.mb-0{width: 100%; background-color: #E6E6FA; height: 50px; text-align: center; border-radius: 20px; padding-top: 17px;}
-#submit{margin-top: 20px; border-radius: 20px; font-size: 25px;}
-#plus{background-color: rgb(255, 159, 159); border-radius: 50%;max-width: 50px;font-size: 25px;}
-#minus{background-color: rgb(153, 153, 252); margin-top: 10px; border-radius: 50%;max-width: 50px;font-size: 25px;}
-#ymnoj{background-color: #66f79d; margin-top: 10px; border-radius: 50%;max-width: 50px;font-size: 25px;}
-#del{background-color: rgb(230, 255, 119); margin-top: 10px; border-radius: 50%;max-width: 50px;font-size: 25px;}

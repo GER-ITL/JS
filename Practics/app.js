@@ -80,7 +80,7 @@ let btn = document.getElementById('btnRes')
 
 //btn.addEventListener = ('click' , checkTest)
 btn.onclick = function checkTest(){
-  let result = 0 
+  let result = 0  
   let q1 = document.querySelector('#q1').value
   if (q1 === '4'){result++}
   let q2 = document.querySelector('#q2').value
