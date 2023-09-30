@@ -51,9 +51,11 @@ p{font-style: inherit; font-weight: 400; text-align: center; color: #E6E6FA;line
 	font-size: 30px;
 	color: #E6E6FA;
     list-style-type:decimal;
-
+	max-width: 55%;
+	margin: 0 auto;
 	
 }
+
 
 
 #todo-input{
