@@ -47,42 +47,40 @@ p{font-style: inherit; font-weight: 400; text-align: center; color: #E6E6FA;line
 	padding-top: 15%;
 }
 
-.todo-list li{
-	font-size: 30px;
+.counter{
 	color: #E6E6FA;
-    list-style-type:decimal;
-	max-width: 55%;
-	margin: 0 auto;
-	
-}
-
-
-
-#todo-input{
-	width: 100%;
-	max-height: 50px;
-	border-radius: 20px;
-	background-color: transparent;
-	color: #ffffff;
-	text-decoration: underline;
+	font-size: 50px;
 	text-align: center;
-	margin-top: 50px;
-	font-size: 30px;
-	overflow: auto;
 }
-#todo-btn{
+.btn{
+	
+	font-size: 30px;
+	padding: 10px;
+	background-color: #E6E6FA;
+	border-radius: 20px;
 	display: block;
 	margin: 0 auto;
-	font-size: 20px;
-	padding: 20px;
-	background: #E6E6FA;
-	color: #292929;
-	border-radius: 20px;
 	margin-top: 20px;
-	margin-bottom: 20px;
 	transition: 0.5s;
-
 }
-#todo-btn:hover{
-	box-shadow: 1px 1px 20px #E6E6FA;
+#start:active{
+	transition: none;
+	color: #48ff00;
+}
+#start:hover{
+	box-shadow: 1px 1px 20px #48ff00;
+}
+#stop:active{
+	transition: none;
+	color: #b90101;
+}
+#stop:hover{
+	box-shadow: 1px 1px 20px #b90101;
+}
+#reset:active{
+	transition: none;
+	color: #0077ff;
+}
+#reset:hover{
+	box-shadow: 1px 1px 20px #0077ff;
 }
