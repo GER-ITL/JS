@@ -121,27 +121,28 @@ function renderRates(data){
 }
 
 
-// function promiseF(){
-//     return new Promise(function(resolve, reject){
-//         setTimeout(function(){
-//             let checkIvent = true
-//             if (checkIvent) {
-//                 let message = 'Done'
-//                 resolve( message )
-//             } else {
-//                 let message = 'Fail'
-//                 reject( message )
-//             }
-//         }, 1000)
-//     })
-// }
+function promiseF(){
+    return new Promise(function(resolve,reject){
+        setTimeout(function(){
+            let cond = true
+            if (cond) {
+                let message = 'Done'
+                resolve(message)
+            } else {
+                let message = 'Fail'
+                reject(message)
+            }
+        },1000)
+    })
+}
 
-// async function startPromise(){
-// try {
-//     const res = await promiseF()
-//     console.log(res)
-// } catch (error) {
-//     console.log(error)
-// }
-// }
-// startPromise()
+async function startPromise(){
+    try {
+        const result = await promiseF()
+        console.log(result)
+    } catch (error) {
+        console.log(error)
+    }
+}
+startPromise()
+
