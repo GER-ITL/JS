@@ -123,27 +123,25 @@ function renderRates(data){
 
 function promiseF(){
     return new Promise(function(resolve,reject){
-        setTimeout(function(){
-            let cond = true
-            if (cond) {
-                let message = 'Done'
-                resolve(message)
-            } else {
-                let message = 'Fail'
-                reject(message)
-            }
-        },1000)
+       setTimeout(function(){ let check = true
+        if (check) {
+            let message = 'Done'
+            resolve(message)
+        } else {
+            let message = 'Fail'
+            reject(message)
+        }},2000)
     })
 }
 
 async function startPromise(){
     try {
-        const result = await promiseF()
-        console.log(result)
+        const rez = await promiseF()
+        console.log(rez)
+        
     } catch (error) {
         console.log(error)
     }
 }
+
 startPromise()
-
-
