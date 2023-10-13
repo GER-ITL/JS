@@ -28,6 +28,14 @@ person.languages.push('de')
 
 delete person.address
 console.log(person)
+
+
+const person = {
+    firstName: 'Alex',
+    age: 21
+}
+let {firstName, age} = person
+console.log(firstName,age)
 */
 
 class Human{
