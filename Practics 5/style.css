@@ -20,7 +20,7 @@ html, body{
 	height: 100%;
 	width: 100%;
 	line-height: 1;
-	background-color: #E6E6FA;
+
 
 
 }
@@ -43,26 +43,28 @@ p{font-style: inherit; font-weight: 400; text-align: center; color: #292929;line
 	max-width: 960px;
 	height: auto;
 	margin: 0 auto;
-	padding-top: 15%;
+	padding-top: 2%;
 	
 }
 
 
 #app{
 	position: relative;
+
 }
 .content{
 	position: absolute;
 	top: 0;
 	right: 0;
-	left: 200px;
+	left: 400px;
+	font-family: 'Courier New', Courier, monospace;
 }
 .sidebar{
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 200px;
+	width: 400px;
 	z-index: 100;
 	padding: 10px;
 	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
@@ -73,5 +75,11 @@ p{font-style: inherit; font-weight: 400; text-align: center; color: #292929;line
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-size: 30px;
+	margin-top: 10px;
+	font-family: 'Courier New', Courier, monospace;
 
+}
+.list{
+  list-style: decimal;
 }
