@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background-color: #E6E6FA;
+}
+
+.header-nav{
+	display: flex;
+	height: 100px;
+	justify-content: space-around;	
+	align-items: center;
+
+
+}
+.header-nav>label{
+	color: #1f1f1f;
+	font-size: 20px;
+}
+.lnav{
+	display: flex;
+	width: 57%;
+	
+
+	
+}
+.lnav>ol>li{
+
+	list-style: none;
+
+}
+.lnav>ol>li>a{
+	text-decoration: none;
+	margin: 10px;
+	font-size: 20px;
+	color: #1d1d1d;
+	
+}
+.list-nav{
+	display: flex;
+	
+
+}
+.main-wind{
+	position: relative;
+	width: 100%;
+}
+.main-wind>img{
+	width: 100%;
+}
+.main-us{
+	display: flex;
+	flex-direction: column;
+	position:absolute;
+	top: 25%;
+	right: 25%;
+	left: 25%;
+	}
+	.main-us>.lab{
+		color: #E6E6FA;
+		font-size: 55px;
+		text-align: center;
+
+	}
+	.main-us>label{
+		color: #E6E6FA;
+		font-size: 20px;
+		margin-top: 30px;
+		text-align: center
+	}
+	#btn{
+		position:absolute;
+		top: 60%;
+		right: 39%;
+
+	}
+	.ourBtn{
+		font-size: 20px;
+		padding: 10px 15px;
+		background: transparent;
+		color: #E6E6FA;
+		border-radius: 2px;
+		border: 1px solid #E6E6FA;
+		cursor: pointer;
+		transition: 1s;
+	}
+	.ourBtn:hover{
+		background: #1ec8ae76;
+		border: none;
+	}
+	.hireBtn{
+		font-size: 20px;
+		padding: 10px 15px;
+		background: #1ec8ae76;
+		color: #E6E6FA;
+		border: none;
+		border-radius: 2px;
+		cursor: pointer;
+		transition: 1s;
+	}
+	.hireBtn:hover{
+		background: transparent;
+		border: 1px solid #E6E6FA;
+
+	}
+	.lupa{
+		width: 15%;
+		
+	}
+	.lupa>img{
+		width: 15%;
+		padding-left: 15px;
+	}
+
+	/* about Us */
+ .about{
+	position: relative;
+ }
+	.label{
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	width: 700px;
+	line-height:25px;
+	}
+	.label>h2{
+		padding-bottom: 20px;
+	}
+	.stap{
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+		margin-bottom: 10%;
+		align-items: center;
+		text-align: center;
+		line-height: 25px;
+	}
+	.stap>p{
+		margin: 25px;
+	}
+	.stap>img{
+		width: 25%;
+		padding-bottom: 30px;
+		align-self: center;
+	}
+	.menu-about{
+		display: flex;
+		justify-content: space-around;
+	}
