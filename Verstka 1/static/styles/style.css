@@ -74,13 +74,18 @@ body{
 	}
 	#btn{
 		position:absolute;
-		top: 60%;
-		right: 39%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 760px;
+		top: 100%;
+		padding-top: 100px;
 
 	}
 	.ourBtn{
 		font-size: 20px;
 		padding: 10px 15px;
+		margin-right: 15px;
 		background: transparent;
 		color: #E6E6FA;
 		border-radius: 2px;
@@ -125,7 +130,7 @@ body{
 	margin-top: 10%;
 	margin-bottom: 10%;
 	text-align: center;
-	width: 700px;
+	max-width: 700px;
 	line-height:25px;
 	}
 	.label>h2{
