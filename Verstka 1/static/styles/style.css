@@ -75,12 +75,10 @@ body{
 		margin-top: 30px;
 		text-align: center
 	}
-	#btn{
-		position:absolute;
-
+	#btn-main{
 		top: 100%;
-		right: 25%;
 		padding-top: 100px;
+		margin: 0 auto;
 
 	}
 	.ourBtn{
@@ -114,11 +112,12 @@ body{
 
 	}
 	.lupa{
-		width: 15%;
+		display: flex;
+		width: 30px;
 		
 	}
 	.lupa>img{
-		width: 15%;
+		width: 30px;
 		padding-left: 15px;
 	}
 
@@ -141,7 +140,6 @@ body{
 		display: flex;
 		flex-direction: column;
 		width: 25%;
-		margin-bottom: 10%;
 		align-items: center;
 		text-align: center;
 		line-height: 25px;
@@ -158,3 +156,104 @@ body{
 		display: flex;
 		justify-content: space-around;
 	}
+
+		/* Servicing */
+	
+		.container{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: 600px 600px;
+		
+		}
+		
+		.card{
+			margin: 1em;
+			display: grid;
+			background: #E6E6FA;
+			transition: 1s;
+			border-radius: 1px;
+			
+		}
+		.card:hover{
+			background-color: #009999;
+			color: #E6E6FA;
+		
+		}
+		.card>img{
+			width: 100px;
+			padding-top: 70px;
+			justify-self: center;
+			
+			
+		}
+
+		.content{
+			text-align: center;
+			font-family: 'Courier New', Courier, monospace;
+			padding: 20px;
+			padding-top: 0;
+			padding-bottom: 70px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		
+			
+		}
+		#btn{
+			background: transparent;
+			padding: 20px;
+			font-size: 20px;
+			border: 3px solid #282828;
+			cursor: pointer;
+			top: 100%;
+			margin: 0 auto;
+			transition: 1s;
+		
+		
+		}
+		#btn:hover{
+			background-color: #009999;
+			color: #E6E6FA;
+			border: 3px solid #E6E6FA;
+		}
+		.serv{
+			background: #97d1fb45;
+			padding-bottom: 100px;
+		}
+		.label-serv{
+			margin: 0 auto;
+			margin-top: 10%;
+			padding-top: 10%;
+			margin-bottom: 10%;
+			text-align: center;
+			max-width: 700px;
+			line-height:25px;
+			}
+			.label-serv>h2{
+				padding-bottom: 20px;
+			}
+		@media(max-width:1000px){
+			.container{
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: repeat(3);
+			}
+			.card{
+				height: 30em;
+				margin: 0;
+		
+			}
+		}
+		@media(max-width:600px){
+			.container{
+				grid-template-columns:  1fr;
+				grid-template-rows: repeat(6);
+				margin:0;
+			}
+			.card{
+				margin: 2em;
+		
+			}
+			.card>img{
+				padding-top: 50px;
+			}
+		}
