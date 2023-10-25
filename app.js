@@ -34,7 +34,7 @@ person2.draving = false
 console.log(person, person2)
 
 function summ(){
-     console.log('hello')
+     console.log('hello ')
 }
 summ()
 const summ2 = function(a,b){
