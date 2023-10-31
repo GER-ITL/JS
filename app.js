@@ -45,3 +45,8 @@ summ2(2,2)
 const getDate = () => console.log(new Date,console.dir(getDate))
 getDate()
 console.log(getDate.name)
+console.log(typeof getDate)
+const nums = [1,2,3]
+for( num of nums){console.log(num)}
+
+console.log(!false && 11 || 18 && !'')
